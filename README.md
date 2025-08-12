@@ -74,19 +74,23 @@ METHODOLOGICAL INFORMATION
 
 1. Description of methods used for collection/generation of data:
 
-Fresh leaf-tissue samples were collected in the field, cut with a hole punch and stored in liquid nitrogen.
+Fresh leaf-tissue samples for NSC quantification were collected in the field, stored on dry ice, microwaved for 3 minutes to stop enzymatic activity, and dried.
 
-2. Methods for processing the data: 
-The content of chlorophyll a, chlorophyll b, β-carotene, lutein, neoxanthin, violaxanthin, antheraxanthin and zeaxanthin pigments was determined using high-performance liquid chromatography (HPLC). For extraction, leaf samples were ground in 80% acetone and centrifuged for 2 min at 13,000 r.p.m. The supernatant was collected with a syringe and the pellet re-extracted in 100% acetone and centrifuged again for 2 min at 13,000 r.p.m. The pooled supernatant was then filtered through a 0.45 μm nylon filter (Millex-HV, Millipore). Our HPLC system (Agilent 1200 Series, Agilent Technologies) included a diode array detector, quaternary pump and 250 mm × 4.6 mm octadecyl-silica column with 5 μm particle size (Allsphere ODS-1 Column, Grace). Solvent programs were adapted from Gilmore & Yamamoto (1991). We injected 20 μl pigment extract per sample and set the flow rate to 2 ml min–1. Solvent A consisted of a mix of acetonitrile:methanol:0.1 M Tris pH 8.0 buffer (8:1:1). Solvent B consisted of a mix of methanol:ethyl acetate (68:32). Solvent A was run for 12 min followed by a 4 min gradient from solvent A to solvent B. Solvent B was run for 2 min followed by a 1 min gradient from solvent B to solvent A to reach column equilibrium. Peaks were detected at 445 nm and peak-area units were measured using the ChemStation Software (Agilent Technologies). We calculated pigment concentrations from HPLC peak areas using calibration equations developed from HPLC peak-area units of pure pigments in dilution series, involving 8 steps for β-carotene, 14 steps for chlorophyll a and 16 steps for all other pigments, covering the entire expected range of pigment concentrations in our samples. Chlorophyll a, chlorophyll b and β-carotene were extracted from spinach with thin-layer chromatography (Quach et al. 2004) and re-dissolved in 100% acetone. Purified lutein was obtained from Sigma–Aldrich. The concentration of the pigment standards in dilution series were determined based on their absorbance measured with a UV-Vis spectrophotometer (Cary 50 Bio, Agilent Technologies) at 445 nm and corresponding extinction coefficients (see Watanabe et al. 1984; Zieger & Egle 1965; Hiyama et al. 1969; Aasen & Jensen 1966). Calibration equations for neoxanthin, violaxanthin, antheraxanthin and zeaxanthin were based on normalized coefficients and lutein area units (De las Rivas et al. 1989). Pigment concentrations (ng.mg–1) were transformed to moles per unit area based on the size of the hole punch.
+Gas exchange parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
+
+Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were excised and placed in the chamber to measure diurnal water potential.
+
+2. Methods for processing the data:
+
+Gas exchange parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
+
+Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were excised and placed in the chamber to measure diurnal water potential.
+
+
 
 References
-Gilmore, A. M. & Yamamoto, H. Y. Resolution of lutein and zeaxanthin using a non-endcapped, lightly carbon-loaded C18 high-performance liquid chromatographic column. J. Chromatogr. A 543, 137–145 (1991)
-Quach, H. T., Steeper, R. L. & Griffin, G. W. An improved method for the extraction and thin-layer chromatography of chlorophyll a and b from spinach. J. Chem. Educ. 81, 385 (2004)
-Watanabe, T. et al. Preparation of chlorophylls and pheophytins by isocratic liquid chromatography. Anal. Chem. 56, 251–256 (1984)
-Zieger, R., & Egle, K. Zur quantitativen Analyse der Chloroplasten Pigmente. I. Kritische Überprüfung der spektralphotometrischen Chlorophyllbestimmung. Beitr. Biol. Pflanz 41, 11–37 (1965)
-Hiyama, T., Nishimura, M. & Chance, B. Determination of carotenes by thin-layer chromatography. Anal. Biochem. 29, 339–342 (1969)
-Aasen, A. & Jensen, S. L. Carotenoids of flexibacteria. IV. The carotenoids of two further pigment types. Acta Chem. Scand. 20, 2322–2324 (1966)
-De las Rivas, J., Abadía, A. & Abadía, J. A new reversed phase-HPLC method resolving all major higher plant photosynthetic pigments. Plant Physiol. 91, 190–192 (1989)
+Landhäusser, S. M., Chow, P. S., Dickman, L. T., Furze, M. E., Klápště, J., Soolanayakanahally, R. Y., ... & Adams, H. D.
+Standardized protocols and procedures can precisely and accurately quantify non-structural carbohydrates. Tree Physiology, 38(4), 514–529 (2018)
 
 
 3. Instrument- or software-specific: 
