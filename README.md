@@ -15,14 +15,14 @@ Pine physiology metrics and spectra collected at Mt. Glory in Wilson, WY in 2025
         Name: Danielle Ulrich
            Institution: Montana State University
            Address: 310 Lewis Hall, Bozeman, MT 59717
-           Email: 
+           Email: danielle.ulrich@montana.edu
 	   ORCID: 0000-0002-2367-4193
 
   Associate or Co-investigator Contact Information
            Name: Anna Schweiger
            Institution: Montana State University
            Address: Leon Johnson Hall, Bozeman, MT 59717
-           Email: nguye618@umn.edu
+           Email: anna.schweiger@montana.edu
 	   ORCID: 0000-0002-5567-4200
 
   Associate or Co-investigator Contact Information
