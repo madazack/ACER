@@ -74,32 +74,27 @@ METHODOLOGICAL INFORMATION
 
 1. Description of methods used for collection/generation of data:
 
-Leaf-level spectra were taken on intact fasicles opposite to fasicles tapped for gas exchange measurements. One to three fasicles were arranged on a black nonreflective background and held in place with rubber bands. Two averaged spectral readings were taken per fasicle, avoiding gaps between needles with the handheld contact probe.
+	a. Leaf-level spectra were taken on intact fasicles opposite to fasicles tapped for gas exchange measurements. One to three fasicles were arranged on a black nonreflective background and held in place with rubber bands. Two averaged spectral readings were taken per fasicle, avoiding gaps between needles with the handheld contact probe.
 
-Fresh leaf-tissue samples for NSC quantification were collected in the field, stored on dry ice, microwaved for 3 minutes to stop enzymatic activity, and dried.
+	b. Fresh leaf-tissue samples for NSC quantification were collected in the field, stored on dry ice, microwaved for 3 minutes to stop enzymatic activity, and dried.
 
-Gas exchange parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
+	c. Gas exchange parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
 
-Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were removed removed and placed in a dark cooler until the chamber could be reached (seasonal) OR immediately placed in the chamber to measure diurnal water potential (diurnals).
+	d. Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were removed removed and placed in a dark cooler until the chamber could be reached (seasonal) OR immediately placed in the chamber to measure diurnal water potential (diurnals).
 
 2. Methods for processing the data:
 
-Gas exchange raw data were checked, unstable or flagged data points removed. For each fasicle, steady-state values were averaged over the measurement period. Environmental conditions inside the chamber (temperature, light, CO₂, humidity) were monitored and kept consistent across samples.
+	a. Leaf reflectance spectra were collected over the range 350–2500 nm. Raw spectral data were first corrected for dark current and calibrated using a white reference panel. Regions affected by atmospheric water absorption (e.g., 1350–1450 nm, 1800–1950 nm) were removed or corrected*
 
-Water potential pressure readings indicating xylem sap emergence at the petiole cut were recorded as leaf water potential.
+	b. Dried fasicles collected for NSC contents were processed following the double digestion protocol described by Landhäusser et al. (2018). Briefly, dried and finely ground plant tissue samples were first extracted with ethanol to remove soluble sugars. The ethanol extracts were then analyzed for soluble sugar content using enzymatic assays. The remaining pellet was subjected to double enzymatic digestion using amyloglucosidase and α-amylase to hydrolyze starch into glucose. The glucose released was quantified enzymatically and used to calculate starch content.
 
+	c. Gas exchange raw data were checked, unstable or flagged data points removed. For each fasicle, steady-state values were averaged over the measurement period. Environmental conditions inside the chamber (temperature, light, CO₂, humidity) were monitored and kept consistent across samples.
 
-
-
-parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
-
-Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were excised and placed in the chamber to measure diurnal water potential.
-
+	d. Water potential pressure readings indicating xylem sap emergence at the petiole cut were recorded as leaf water potential.
 
 
 References
-Landhäusser, S. M., Chow, P. S., Dickman, L. T., Furze, M. E., Klápště, J., Soolanayakanahally, R. Y., ... & Adams, H. D.
-Standardized protocols and procedures can precisely and accurately quantify non-structural carbohydrates. Tree Physiology, 38(4), 514–529 (2018)
+Landhäusser, S. M. Standardized protocols and procedures can precisely and accurately quantify non-structural carbohydrates. Tree Physiology, 38(4), 514–529 (2018)
 
 
 3. Instrument- or software-specific: 
@@ -127,40 +122,34 @@ High schooler
 ---------------------
 DATA & FILE OVERVIEW
 ---------------------
-This data set contains diurnal gas exchange data from PIAL & PIFL individuals sampled along the Mt. Glory trail in Wilson, WY. 
-
-the content of chlorophyll a, chlorophyll b, β-carotene, lutein, neoxanthin, violaxanthin, antheraxanthin and zeaxanthin pigments from tree and grassland species sampled at the Cedar Creek Ecosystem Science Reserve in East Bethel, MN.
-
-Mass- and area-based pigment contents were determined using high-performance liquid chromatography (HPLC). Data were collected as part of the Dimensions of Biodiversity project “Linking remotely sensed optical diversity to genetic, phylogenetic and functional diversity to predict ecosystem processes”.
-
-We used this data together with leaf-level spectral measurements to build partial least squares regression (PLSR) models for predicting leaf traits from spectra. 
+This data set contains diurnal gas exchange, water potential, [NSC], and spectral data from 10 Whitebark (PIAL) & Limber pine (PIFL) individuals sampled along the Mt. Glory trail in Wilson, WY. Physiological data was used to build partial least squares regression (PLSR) models for predicting leaf nutrient contents from spectra.
 
 1. File List
-   A. Filename: DOB_pigments.csv	
+   A. Filename: WBP_diurnals.csv	
 	Short Description: Leaf gas exchange and water potential measurements
 	Size: 
-	Type: CSV file  
+	Type: CSV file
 
+   B. Filename: DOB_pigments.csv	
+	Short Description: Leaf-level spectra
+	Size: 
+	Type: CSV file  
 
 -----------------------------------------
 DATA-SPECIFIC INFORMATION FOR: DOB_pigments.csv 
 -----------------------------------------
 
-1. Number of variables: 19
+1. Number of variables: 6
 
-2. Number of cases/rows: 125
+2. Number of cases/rows: 60
 
 3. Missing data codes: NA      
 
 4. Variable List
    
-    	A. nam: sample name, including location code	
-	B. abbrev: species abbreviation	
-	C. species: species name	
-	D. NEO_ng_mg: neoxanthin (ng.mg-1)    
-	E. VIO_ng_mg: violaxanthin (ng.mg-1)    
-	F. ANT_ng_mg: antheraxanthin ((ng.mg-1)     
-	G. LUT_ng_mg: lutein (ng.mg-1)     
-	H. ZEA_ng_mg: zeaxanthin (ng.mg-1)     
-	I. CHLB_ng_mg: chlorophyll b (ng.mg-1)    
-	J. CHLA_ng_mg: chlorophyll a (ng.mg-1)  
+    A. ID: individual ID
+	B. species: species abbreviation (PIAL or PIFL)
+	C. timepoint: time of measurement (six per day)
+	D. water_potential: water potential (MPa)    
+	E. A: net photosynthesis (µmol CO2 m-2 s-1)
+	F. GSW: stomatal conductance (mol m-2 s-1) 
