@@ -7,7 +7,7 @@ GENERAL INFORMATION
 
 1. Tetons Whitebark and Limber Pine Spectra + Physiology
 
-tree and grassland species collected at the Cedar Creek Ecosystem Science Reserve in 2015 and 2016
+Pine physiology metrics and spectra collected at Mt. Glory in Wilson, WY in 2025
 
 3. Author Information
 
@@ -74,15 +74,24 @@ METHODOLOGICAL INFORMATION
 
 1. Description of methods used for collection/generation of data:
 
+Leaf-level spectra were taken on intact fasicles opposite to fasicles tapped for gas exchange measurements. One to three fasicles were arranged on a black nonreflective background and held in place with rubber bands. Two averaged spectral readings were taken per fasicle, avoiding gaps between needles with the handheld contact probe.
+
 Fresh leaf-tissue samples for NSC quantification were collected in the field, stored on dry ice, microwaved for 3 minutes to stop enzymatic activity, and dried.
 
 Gas exchange parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
 
-Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were excised and placed in the chamber to measure diurnal water potential.
+Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were removed removed and placed in a dark cooler until the chamber could be reached (seasonal) OR immediately placed in the chamber to measure diurnal water potential (diurnals).
 
 2. Methods for processing the data:
 
-Gas exchange parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
+Gas exchange raw data were checked, unstable or flagged data points removed. For each fasicle, steady-state values were averaged over the measurement period. Environmental conditions inside the chamber (temperature, light, CO₂, humidity) were monitored and kept consistent across samples.
+
+Water potential pressure readings indicating xylem sap emergence at the petiole cut were recorded as leaf water potential.
+
+
+
+
+parameters including net photosynthesis rate (A) and stomatal conductance (gs) were measured using the LI-6800 Portable Photosynthesis System (LI-COR Biosciences, Lincoln, NE, USA). Measurements were conducted on mature, healthy leaf fasicles under controlled environmental conditions within the leaf chamber. Data were recorded once steady-state values were achieved after 2–3 minutes of stabilization.
 
 Leaf water potential was determined using a pressure chamber (Water Potential Pressure Chamber – Standard, Edaphic Scientific, Moorabbin, VIC, Australia). Immediately after gas exchange measurements, similar paired fasicles were excised and placed in the chamber to measure diurnal water potential.
 
